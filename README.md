@@ -2,11 +2,10 @@
 
 Word2Image is a library that converts words to images and those images into words
 
-## Prerequisites
+## Requirements
 
-Word2Image is written in Python 3 code
-
-Word2Image requires Pillow, which can be installed using:
+* [Python 3](https://www.python.org/downloads/)
+* Pillow
 
 ```
 pip3 install Pillow
@@ -14,19 +13,21 @@ pip3 install Pillow
 
 ## Usage
 
-Word2Image has two functions: word2image and image2word
-
 ### word2image
 
-word2image takes a string and returns an image.
-
-To see word2image in use, look at testa.py
+```
+import word2image as w2i
+image = w2i.word2image("Some Text")
+w2i.saveImage(image, "example.png")
+```
 
 ### image2word
 
-image2word takes an image and returns a string based on the pixel values.
-
-To see image2word in use, look at testb.py
+```
+import word2image as w2i
+image = w2i.loadImage("example.png")
+message = w2i.image2word(image)
+```
 
 ## Authors
 

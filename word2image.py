@@ -21,3 +21,9 @@ def image2word(picture):
 		message.append(chr(tup[2]))
 	
 	return message
+
+def saveImage(picture, filename):
+	picture.save(filename)
+
+def loadImage(filename):
+	return Image.open(filename)
