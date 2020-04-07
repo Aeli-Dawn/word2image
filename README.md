@@ -31,4 +31,4 @@ message = w2i.image2word(image)
 
 ## Authors
 
-* **Dawn Keeran** - *Initial Work* - [TheCodieGirl](https://github.com/TheCodieGirl)
+* **Dawn Keeran** - *Initial Work* - [Aeli-Dawn](https://github.com/TheCodieGirl)
